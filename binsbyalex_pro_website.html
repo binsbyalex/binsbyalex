@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bins by Alex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #e8fff2, #f0fdf4);
+      color: #1e3932;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #a3e4c0;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header img {
+      max-width: 120px;
+      animation: popIn 1s ease-out;
+    }
+    @keyframes popIn {
+      0% {transform: scale(0.5); opacity: 0;}
+      100% {transform: scale(1); opacity: 1;}
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #134e4a;
+    }
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #116c56;
+    }
+    .highlight-box {
+      background-color: #d6f7e2;
+      border-left: 6px solid #3fb68b;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+    }
+    .pricing ul {
+      list-style: none;
+      padding: 0;
+    }
+    .pricing li {
+      background: #ffffff;
+      margin: 0.5rem 0;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .contact-box {
+      background-color: #f0fff8;
+      padding: 1rem;
+      border: 2px dashed #47b39d;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .before-after {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .before-after img {
+      border-radius: 12px;
+      width: 300px;
+      height: auto;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #a3e4c0;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    footer p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/Screenshot 2025-06-23 at 4.42.49 PM.png" alt="Bins by Alex logo" />
+    <h1>Bins by Alex</h1>
+    <p><em>Bin There Sprayed That</em></p>
+  </header>
+
+  <section>
+    <div class="highlight-box">
+      <h2>Welcome!</h2>
+      <p>We’re here to power wash your trash bins so they’re fresh, clean, and bacteria-free — right at your doorstep. Locally operated in San Gabriel Valley, Bins by Alex is your friendly neighborhood bin-blasting service.</p>
+    </div>
+
+    <h2>Why Clean Your Bin?</h2>
+    <ul>
+      <li>🦠 Stops germs and bacteria from spreading</li>
+      <li>🚫 Repels maggots, flies, and pests</li>
+      <li>👃 Gets rid of nasty odors</li>
+      <li>🏡 Keeps your home looking and smelling fresh</li>
+    </ul>
+  </section>
+
+  <section class="pricing">
+    <h2>Pricing</h2>
+    <ul>
+      <li>1 Bin – $25</li>
+      <li>3 Bins – $70 (save $5!)</li>
+      <li>4 Bins – $90 (save $10!)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>About the Owner</h2>
+    <p>Hi, I'm Alex — a business student at the University of Oregon, and I’ve launched this eco-friendly bin cleaning service as part of my entrepreneurship journey. I love bringing real value to my community while building something of my own.</p>
+  </section>
+
+  <section>
+    <h2>How to Book</h2>
+    <div class="contact-box">
+      <p><strong>📱 Text:</strong> <a href="tel:6266221815">626-622-1815</a></p>
+      <p><strong>📧 Email:</strong> <a href="mailto:binsbyalex@gmail.com">binsbyalex@gmail.com</a></p>
+      <p><em>Booking is available via text or email only.</em></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Before & After</h2>
+    <div class="before-after">
+      <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Before+Cleaning" alt="Before bin cleaning">
+      <img src="https://via.placeholder.com/300x200/88e8a8/000000?text=After+Cleaning" alt="After bin cleaning">
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Bins by Alex</strong> – Serving the San Gabriel Valley, Los Angeles</p>
+    <p>Text: 626-622-1815 | Email: binsbyalex@gmail.com</p>
+    <p><em>Bin There Sprayed That</em></p>
+  </footer>
+</body>
+</html>
